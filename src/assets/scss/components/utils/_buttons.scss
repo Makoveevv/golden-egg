@@ -1,0 +1,15 @@
+.btn {
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: $accent;
+  box-shadow: 0 5px 0 darker($accent, 5%);
+    
+  &:hover {
+    background: darker($accent, 5%);
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","mappings":";;;;;;AAAa;;AAEbA,MAAM,CAACC,gBAAgB,CAAC,kBAAkB,EAAE,YAAM,CAIlD,CAAC,CAAC,C","sources":["webpack://golden-egg/./src/assets/js/main.js"],"sourcesContent":["\"use strict\";\r\n\r\nwindow.addEventListener('DOMContentLoaded', () => {\r\n\r\n    \r\n\r\n});"],"names":["window","addEventListener"],"sourceRoot":""}
