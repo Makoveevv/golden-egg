@@ -76,7 +76,7 @@
   margin: 15px auto 35px;
 }
 
-@mixin dark-bg-layer {
+@mixin dark-bg-layer($bg) {
   content: '';
   display: block;
   position: absolute;
@@ -85,5 +85,5 @@
   bottom: 0;
   right: 0;
   z-index: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.56) 100%);
+  background: $bg;
 }

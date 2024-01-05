@@ -1,0 +1,54 @@
+.tabs {
+  display: flex;
+  height: 47px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &.overfilled {
+    left: 0;
+    transform: none;
+  }
+
+  &__container {
+    margin: 45px auto 60px;
+    position: relative;
+    height: 60px;
+    max-width: $container;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      height: 8px;
+      background: $gray;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $accent;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+    min-width: 163px;
+    color: #333;
+    font-size: .6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      border-right: 1px solid rgba(51, 51, 51, 0.20);
+    }
+
+    &:hover,
+    &.active {
+      background-color: $accent;
+    }
+  }
+}

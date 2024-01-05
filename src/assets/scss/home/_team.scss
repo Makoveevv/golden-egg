@@ -1,5 +1,6 @@
 .team {
-  background: url('../img/team-bg.jpg') center no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 0 120px;
   color: $white;
@@ -7,7 +8,7 @@
   position: relative;
 
   &::before {
-    @include dark-bg-layer;
+    @include dark-bg-layer(linear-gradient(180deg, rgba(0, 0, 0, .80) 0%, rgba(0, 0, 0, .56) 100%));
   }
 
   &__title {
@@ -29,13 +30,9 @@
   }
 
   &__image {
-    width: 50%;
-    max-width: 500px;
-    position: relative;
-
     .circle {
       left: 0;
-      transform: translate(-40%, -50%);
+      transform: translate(-50%, -50%);
     }
   }
 

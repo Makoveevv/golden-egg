@@ -71,14 +71,17 @@ svg {
     font-size: 2.1em;
     font-weight: 400;
     text-transform: uppercase;
-
-    &--white {
-      color: $white;
-    }
+    text-align: center;
 
     &::after {
       @include line;
     }
+  }
+
+  &__image {
+    width: 50%;
+    max-width: 475px;
+    position: relative;
   }
 
   &-img {
