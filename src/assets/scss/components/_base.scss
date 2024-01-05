@@ -4,6 +4,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   &::before, &::after {
       box-sizing: border-box;
   }
@@ -20,27 +22,20 @@ a {
 
 ul,
 li {
-  padding: 0;
-  margin: 0;
   list-style: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
 }
 
 body {
   min-width: 280px;
-  margin: 0;
-  padding: 0;
 
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.3;
+  font-size: 20px;
+  line-height: 1.5;
   color: $black;
 
   overflow-x: hidden;
   opacity: 1;
+  scroll-behavior: smooth;
 }
 
 .img-responsive {
@@ -54,8 +49,54 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: $container;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.wrapper {
+  max-width: $wrap;
+  margin: 0 auto;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  &__title {
+    font-family: Kurale;
+    font-size: 2.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &--white {
+      color: $white;
+    }
+
+    &::after {
+      @include line;
+    }
+  }
+
+  &-img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
+  }
+}
+
+p {
+  margin-bottom: 35px;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border: 20px solid $accent;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.50);
+  position: absolute;
+  top: 50%;
 }

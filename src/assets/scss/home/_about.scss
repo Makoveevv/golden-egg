@@ -1,0 +1,39 @@
+.about {
+   padding: 95px 0 105px;
+
+   &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   &__content {
+      width: 50%;
+      max-width: 600px;
+      text-align: center;
+   }
+
+   &__image {
+    width: 50%;
+    max-width: 500px;
+    position: relative;
+
+    .circle {
+      right: 0;
+      transform: translate(40%, -50%);
+    }
+   }
+
+   &__text {
+    font-size: .8em;
+    line-height: 1.75;
+
+    &-intro {
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: 25px;
+    }
+  }
+}

@@ -62,3 +62,28 @@
         @content;
     }
 }
+
+// Custom
+// ----------------
+
+@mixin line {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: $accent;
+  border-radius: 50px;
+  margin: 15px auto 35px;
+}
+
+@mixin dark-bg-layer {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.56) 100%);
+}
