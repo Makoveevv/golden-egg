@@ -53,7 +53,6 @@ window.addEventListener('DOMContentLoaded', () => {
     slidesPerGroup: 2,
     spaceBetween: 55,
     grid: {
-      fill: 'column',
       rows: 2
     },
     speed: 600,
