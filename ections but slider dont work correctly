@@ -1,0 +1,17 @@
+[33mcommit c36f8a98c2443aba6fcae7cf722306542b6116c8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Makoveev Ivan01~ <makoveevvanya@gmail.com>
+Date:   Sat Jan 6 00:36:11 2024 +0300
+
+    create order, offers and almost make menu sections
+
+[33mcommit bd9ad330b586402fcbc054122d68d70d483193c5[m
+Author: Makoveev Ivan01~ <makoveevvanya@gmail.com>
+Date:   Fri Jan 5 14:13:55 2024 +0300
+
+    create intro, about and team sections
+
+[33mcommit 9ccd8726d1f64adf05343f87add6f15c3fc7faed[m
+Author: Makoveev Ivan01~ <makoveevvanya@gmail.com>
+Date:   Wed Jan 3 21:37:29 2024 +0300
+
+    first commit

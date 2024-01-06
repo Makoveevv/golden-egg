@@ -35,6 +35,8 @@
     }
 
     .swiper-slide {
+      display: flex;
+      justify-content: center;
       height: 175px;
     }
   }

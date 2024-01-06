@@ -38,12 +38,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .text-center {
   text-align: center;
 }
@@ -85,6 +79,9 @@ svg {
   }
 
   &-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
   }
