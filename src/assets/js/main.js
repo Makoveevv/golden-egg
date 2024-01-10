@@ -51,9 +51,9 @@ window.addEventListener('DOMContentLoaded', () => {
   const menuSwiper = new Swiper('.menu__slider', {
     slidesPerView: 2,
     slidesPerGroup: 2,
-    spaceBetween: 55,
     grid: {
-      rows: 2
+      rows: 2,
+      columns: 2
     },
     speed: 600,
     pagination: {

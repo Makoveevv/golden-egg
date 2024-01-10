@@ -1140,6 +1140,9 @@ p {
   overflow: hidden;
   min-height: 500px;
 }
+.menu__sliders .swiper-wrapper {
+  flex-wrap: wrap;
+}
 .menu__slider {
   height: 100%;
 }
